@@ -1,0 +1,16 @@
+[
+{
+  "modid": "justice",
+  "name": "Heroes United",
+  "description": "Adds many heroes to the current mod FiskHeroes.",
+  "version": "1.2.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Awex__"],
+  "credits": "BBovard, Fiskfille",
+  "logoFile": "heroes-banner.png",
+  "screenshots": [],
+  "dependencies": ["required-before:fiskheroes"]
+}
+]
