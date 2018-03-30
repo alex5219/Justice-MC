@@ -24,8 +24,6 @@ public class AbilityManager{
     public static final Ability<IAbility> TENACITY = new AbilityTenacity(4);
     public static final Ability<IAiming> FEARTOXIN = new AbilityFearToxin(2);
     public static final Ability<IAbility> AQUAENHANCE = new AbilityAquaticEnhanced(4);
-    //public static final Ability<IAbility> MAGIC = new AbilityMagic(4);
-    //public static final Ability<IAbility> PHASING = new AbilityPhase(3);
 
     public AbilityManager(){
     }
