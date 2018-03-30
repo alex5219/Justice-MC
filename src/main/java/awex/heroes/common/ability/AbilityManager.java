@@ -42,23 +42,6 @@ public class AbilityManager{
                     var5.printStackTrace();
                 }
             }
-        }/**
-        for (Hero hero : Hero.getSpeedsters()) {
-            if (hero.getVersion() == ItemHeroArmor.ArmorVersion.DCTV || hero.getVersion() == ItemHeroArmor.ArmorVersion.DCEU || hero.getVersion() == ItemHeroArmor.ArmorVersion.DCAU || hero.getVersion() == ItemHeroArmor.ArmorVersion.COMICS) {
-                ImmutableList.Builder builder = ImmutableList.builder();
-                builder.addAll(hero.getAbilities());
-                builder.add(PHASING);
-                ImmutableList<AbilityManager> newList = builder.build();
-
-                try {
-                    Field f = Hero.class.getDeclaredField("abilities");
-                    f.setAccessible(true);
-                    f.set(hero, newList);
-                    f.setAccessible(false);
-                } catch (Exception ex) {
-                    ex.printStackTrace();
-                }
-            }
-        }*/
+        }
     }
 }
