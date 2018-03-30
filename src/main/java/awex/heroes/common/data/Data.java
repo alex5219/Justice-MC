@@ -11,7 +11,7 @@ import net.minecraft.entity.Entity;
 
 import java.lang.reflect.Field;
 
-public class Data<T> extends SHData{
+public class Data<T> extends SHData {
     public static SHData<String> CONSTRUCT = new Data(AbilityManager.CONSTRUCT);
     public static SHData<Float> CONSTRUCT_TIMER = (new Data(0.0F, AbilityManager.CONSTRUCT)).setExempt(1);
     public static SHData<Boolean> CONSTRUCTING = (new Data(false, AbilityManager.CONSTRUCT)).setExempt(1);
@@ -24,8 +24,6 @@ public class Data<T> extends SHData{
     public static SHData<Boolean> SUPERMAN_FLIGHT = (new Data(false, AbilityManager.SUPERMAN_FLIGHT)).setExempt(1);
     public static SHData<Boolean> CANFLY = (new Data(false));
     public static SHData<Boolean> FROST_BREATH = new Data<Boolean>(false).setExempt(RESET);
-    //public static SHData<Boolean> PHASE = new Data<Boolean>(false).setExempt(RESET);
-    //public static SHData<Double> PHASEY= new Data<Double>(255D).setExempt(RESET);
 
     protected Data(DataFactory<T> defaultVal, Predicate<Entity> p) {
         super(defaultVal, p);
